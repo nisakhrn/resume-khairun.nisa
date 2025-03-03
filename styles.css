@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+.info, .summary, .education {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #333;
+    background: #f9f9f9;
+}
