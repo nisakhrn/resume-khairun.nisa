@@ -3,35 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="resume.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <title>Resume Khairun Nisa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
+    <div class="container">
         <header>
-            <img src="Poto.jpg" alt="Foto Profil" width="200" height=""> 
-            <h1>Khairun Nisa</h1>
-            <p>Mahasiswa Informatika</p>
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="Poto.jpg" alt="Khairun Nisa">
+                </div>
+                <div class="profile-info">
+                    <h1>Khairun Nisa</h1>
+                    <p class="subtitle">Mahasiswa Informatika Angkatan 2023</p>
+                </div>
+            </div>
         </header>
 
-        <section class="info">
-            <h2>Informasi Pribadi</h2>
-            <p>Email: khairunnn@mhs.usk.ac.id</p>
+        <section class="contact-info">
+            <p>Email: nkhairun044@gmail.com</p>
             <p>Telepon: 0812-6909-3626</p>
-            <p>Alamat: Kota Sigli, Pidie, Aceh, Indonesia</p>
+            <p>Alamat: Rumia, Kec. Indrajaya, Kab. Pidie, Aceh</p>
         </section>
 
-        <section class="summary">
-            <h2>Ringkasan Profil</h2>
-            <p>Saya merupakan mahasiswa aktif S1 Informatika, yang memiliki ketertarikan dalam pengembangan teknologi berbasis data dan desain antarmuka pengguna. 
-               Saya percaya bahwa teknologi dapat memberikan dampak positif jika diterapkan dengan inovatif dan efisien.</p>
-        </section>
-
-        <section class="education">
+        <section class="section">
             <h2>Pendidikan</h2>
-            <p><strong>Universitas Syiah Kuala</strong> - S1 Informatika (2023 - sekarang)</p>
-            <p><strong>MAS Ummul Ayman</strong> - Jurusan IPA (2020 - 2023)</p>
+            <div class="entry">
+                <p class="year">2023 - Sekarang</p>
+                <div class="description">
+                    <p class="title">S1 Informatika</p>
+                    <p>Universitas Syiah Kuala</p>
+                </div>
+            </div>
+            <div class="entry">
+                <p class="year">2020 - 2023</p>
+                <div class="description">
+                    <p class="title">MIPA</p>
+                    <p>MAS Ummul Ayman</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Kemampuan</h2>
+            <ul class="skills">
+                <li>Pemrograman: Java, Python, C++</li>
+                <li>Web: HTML, CSS, JavaScript</li>
+                <li>Database: MySQL</li>
+                <li>Tools: Git, Visual Studio Code</li>
+                <li>Bahasa: Indonesia (Native)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Pengalaman Organisasi</h2>
+            <div class="entry">
+                <p class="year">2024 - 2025</p>
+                <div class="description">
+                    <p class="title">Anggota Badan Eksekutif Mahasiswa Universitas Syiah Kuala</p>
+                    <p>Kementerian Agama</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <p class="year">2025 - Sekarang</p>
+                <div class="description">
+                    <p class="title">Anggota Himpunan Mahasiswa Informatika</p>
+                    <p>Departemen Pengelolaan Kesejahteraan Mahasiswa</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <p class="year">2025 - Sekarang</p>
+                <div class="description">
+                    <p class="title">Anggota Badan Eksekutif Mahasiswa Fakultas MIPA</p>
+                    <p>Divisi PSDM</p>
+                </div>
+            </div>
         </section>
     </div>
 </body>
